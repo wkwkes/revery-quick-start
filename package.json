@@ -12,9 +12,12 @@
     "revery": "^0.2.0",
     "@opam/dune": "*"
   },
+  "resolutions": {
+    "revery": "bryphe/revery#9fbe23a"
+  },
   "scripts": {
-   "format": "bash -c \"refmt --in-place *.re\"",
-   "run": "esy x App"
+    "format": "bash -c \"refmt --in-place *.re\"",
+    "run": "esy x App"
   },
   "devDependencies": {
     "ocaml": "~4.6.0",
